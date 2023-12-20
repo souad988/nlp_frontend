@@ -1,11 +1,11 @@
 import './App.css';
 import { Routes, Route } from 'react-router-dom';
-import Greeting from './components/Greeting';
+import DocumentUpload from './components/documentUpload';
 
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<Greeting />} />
+      <Route path="/" element={<DocumentUpload />} />
     </Routes>
   );
 }
